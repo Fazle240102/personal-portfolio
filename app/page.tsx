@@ -1,6 +1,5 @@
 "use client";
-
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import {
@@ -145,6 +144,43 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 
 export default function Home() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("about");
+
+  useEffect(() => {
+    const sections = ["about", "projects", "skills", "journey", "contact"];
+
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + 160;
+
+      const pageBottom =
+        window.scrollY + window.innerHeight >=
+        document.documentElement.scrollHeight - 50;
+
+      let currentSection = "about";
+
+      for (const id of sections) {
+        const section = document.getElementById(id);
+
+        if (section && section.offsetTop <= scrollPosition) {
+          currentSection = id;
+        }
+      }
+
+      if (pageBottom) {
+        currentSection = "contact";
+      }
+
+      setActiveSection(currentSection);
+    };
+
+    handleScroll();
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const closeMobile = () => setMobileOpen(false);
 
@@ -174,7 +210,11 @@ export default function Home() {
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
-                  className="text-xs text-zinc-500 transition hover:text-white"
+                  className={`text-xs transition ${
+                    activeSection === item.toLowerCase()
+                      ? "text-white"
+                      : "text-zinc-500 hover:text-white"
+                  }`}
                 >
                   {item}
                 </a>
@@ -184,7 +224,7 @@ export default function Home() {
 
           <div className="hidden items-center gap-3 md:flex">
             <a
-              href="/Fazle_Rabbi_Resume.pdf"
+              href="/Fazle_Rabbi_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full border border-white/10 px-5 py-2.5 text-xs font-medium transition hover:border-white/20 hover:bg-white/[0.05]"
@@ -228,7 +268,7 @@ export default function Home() {
               )}
               <div className="mt-4 flex flex-col gap-3 border-t border-white/10 pt-4">
                 <a
-                  href="/Fazle_Rabbi_Resume.pdf"
+                  href="/Fazle_Rabbi_resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={closeMobile}
@@ -564,11 +604,6 @@ export default function Home() {
                     </a>
                   )}
                 </div>
-
-                <ArrowUpRight
-                  size={22}
-                  className="absolute bottom-7 right-7 text-zinc-700 transition group-hover:text-zinc-400"
-                />
               </motion.article>
             ))}
           </div>
@@ -846,7 +881,7 @@ export default function Home() {
               </div>
 
               <a
-                href="mailto:dev.fazlerabbi@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=dev.fazlerabbi@gmail.com"
                 className="inline-flex w-fit items-center gap-3 rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-zinc-200"
               >
                 <Mail size={16} />
