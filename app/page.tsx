@@ -150,22 +150,27 @@ export default function Home() {
     const sections = ["about", "projects", "skills", "journey", "contact"];
 
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + 160;
+      const scrollPosition = window.scrollY + 180;
 
       const pageBottom =
         window.scrollY + window.innerHeight >=
-        document.documentElement.scrollHeight - 50;
+        document.documentElement.scrollHeight - 80;
 
       let currentSection = "about";
 
       for (const id of sections) {
         const section = document.getElementById(id);
 
-        if (section && section.offsetTop <= scrollPosition) {
+        if (!section) continue;
+
+        const sectionTop = section.getBoundingClientRect().top + window.scrollY;
+
+        if (scrollPosition >= sectionTop) {
           currentSection = id;
         }
       }
 
+      // Always mark Contact active when the user reaches the bottom.
       if (pageBottom) {
         currentSection = "contact";
       }
@@ -181,7 +186,6 @@ export default function Home() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
   const closeMobile = () => setMobileOpen(false);
 
   return (
@@ -260,7 +264,11 @@ export default function Home() {
                     key={item}
                     href={`#${item.toLowerCase()}`}
                     onClick={closeMobile}
-                    className="text-sm text-zinc-400 transition hover:text-white"
+                    className={`text-sm transition ${
+                      activeSection === item.toLowerCase()
+                        ? "text-white font-medium"
+                        : "text-zinc-400 hover:text-white"
+                    }`}
                   >
                     {item}
                   </a>
