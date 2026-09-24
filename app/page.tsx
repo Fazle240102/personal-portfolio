@@ -18,8 +18,7 @@ import {
   Menu,
   X,
 } from "lucide-react";
-import { FaGithub, FaFacebookF } from "react-icons/fa";
-
+import { FaGithub, FaFacebookF, FaLinkedin } from "react-icons/fa";
 const projects = [
   {
     number: "01",
@@ -364,6 +363,16 @@ export default function Home() {
               >
                 <FaGithub size={13} />
                 GitHub
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/fazle240102/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-2 transition hover:text-white"
+              >
+                <FaLinkedin size={13} />
+                LinkedIn
               </a>
 
               <a
@@ -920,6 +929,16 @@ export default function Home() {
               >
                 <FaGithub size={13} />
                 GitHub
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/fazle240102/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-2 transition hover:text-white"
+              >
+                <FaLinkedin size={13} />
+                LinkedIn
               </a>
 
               <a
