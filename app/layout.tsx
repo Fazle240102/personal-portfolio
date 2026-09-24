@@ -38,8 +38,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/og-image.png",
-        width: 1000,
-        height: 525,
+        width: 1200,
+        height: 630,
         alt: "Md. Fazle Rabbi | CSE Student & AI/ML Explorer",
       },
     ],
