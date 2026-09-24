@@ -1,0 +1,112 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="64"
+    height="64"
+    viewBox="0 0 64 64"
+    fill="none"
+>
+    <defs>
+        <linearGradient id="border" x1="8" y1="6" x2="58" y2="58">
+            <stop offset="0%" stop-color="#18F5C0" />
+            <stop offset="50%" stop-color="#00D9A5" />
+            <stop offset="100%" stop-color="#00A878" />
+        </linearGradient>
+
+        <linearGradient id="r" x1="27" y1="15" x2="52" y2="52">
+            <stop offset="0%" stop-color="#22FFD0" />
+            <stop offset="55%" stop-color="#00D9A5" />
+            <stop offset="100%" stop-color="#00A878" />
+        </linearGradient>
+
+        <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12" />
+            <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+        </linearGradient>
+
+        <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+            <feGaussianBlur stdDeviation="1.5" result="blur" />
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Dark background -->
+    <rect
+        x="2"
+        y="2"
+        width="60"
+        height="60"
+        rx="15"
+        fill="#050505"
+    />
+
+    <!-- Premium glowing border -->
+    <rect
+        x="3"
+        y="3"
+        width="58"
+        height="58"
+        rx="14"
+        stroke="url(#border)"
+        stroke-width="2"
+        opacity="0.9"
+        filter="url(#glow)"
+    />
+
+    <!-- Subtle inner border -->
+    <rect
+        x="6"
+        y="6"
+        width="52"
+        height="52"
+        rx="12"
+        stroke="#10B981"
+        stroke-width="0.7"
+        stroke-opacity="0.22"
+    />
+
+    <!-- F — Fazle -->
+    <path
+        d="M18 46V18H39"
+        stroke="#F5F5F5"
+        stroke-width="6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+
+    <path
+        d="M18 31H34"
+        stroke="#F5F5F5"
+        stroke-width="6"
+        stroke-linecap="round"
+    />
+
+    <!-- R — Rabbi -->
+    <path
+        d="M34 46V19H45
+       C50 19 53 22 53 27
+       C53 32 50 35 45 35H34"
+        stroke="url(#r)"
+        stroke-width="5.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+
+    <path
+        d="M43 35L52 46"
+        stroke="url(#r)"
+        stroke-width="5.5"
+        stroke-linecap="round"
+    />
+
+    <!-- Subtle glass highlight -->
+    <path
+        d="M8 18C10 11 15 8 22 8H42"
+        stroke="url(#shine)"
+        stroke-width="2"
+        stroke-linecap="round"
+        opacity="0.7"
+    />
+</svg>

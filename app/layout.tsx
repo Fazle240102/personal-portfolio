@@ -35,6 +35,14 @@ export const metadata: Metadata = {
       "CSE undergraduate exploring AI/ML, software development, and practical systems.",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Md. Fazle Rabbi | CSE Student & AI/ML Explorer",
+      },
+    ],
   },
 
   twitter: {
@@ -42,6 +50,7 @@ export const metadata: Metadata = {
     title: "Md. Fazle Rabbi | CSE Student & AI/ML Explorer",
     description:
       "CSE undergraduate exploring AI/ML, software development, and practical systems.",
+    images: ["/og-image.png"],
   },
 };
 
