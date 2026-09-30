@@ -28,22 +28,25 @@ I enjoy building practical systems, exploring new technologies, and working on p
 
 ## 🚀 Featured Projects
 
-My current project focus includes:
+My current project focus, in priority order:
 
-1. **nbody-robotics** — AI/robotics project
-2. **SENTRY-1** — ESP32-based ultrasonic radar system with real-time web visualization
-3. **Tour Management System (TMS)** — software/web application
-4. **Interpolation Simulator** — numerical computing project
-5. **Library Management System** — database and backend project
+1. **[nbody-robotics](https://nbody-robotics.vercel.app/)** — AI/robotics team project with a live web application.
+2. **SENTRY-1** — A low-cost ESP32-based ultrasonic radar system with real-time web-based visualization.
+3. **Tour Management System (TMS)** — A software/web application project.
+4. **Interpolation Simulator** — A numerical methods and visualization project.
+
+> These projects are listed in the same order as my current portfolio/project priorities. Repository links are only included where the corresponding public repository is currently available.
 
 ## 📄 Resume
 
-The latest resume is available in `public/Fazle_Rabbi_resume.pdf`.
+The latest resume is available at:
 
-## 🔗 Links
+**[View Resume](https://github.com/Fazle240102/personal-portfolio/blob/master/public/Fazle_Rabbi_resume.pdf)**
 
-- **GitHub:** https://github.com/Fazle240102
-- **Portfolio:** https://nbody-robotics.vercel.app/
+## 🔗 Connect
+
+- **GitHub:** [Fazle240102](https://github.com/Fazle240102)
+- **Portfolio:** [nbody-robotics.vercel.app](https://nbody-robotics.vercel.app/)
 
 ## 📌 Development
 
@@ -56,7 +59,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000 in your browser.
+Open **http://localhost:3000** in your browser.
 
 ## 📜 License
 
