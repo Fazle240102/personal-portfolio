@@ -28,6 +28,7 @@ const projects = [
       "An enterprise network infrastructure project developed for the Computer Networks Lab, featuring VLAN segmentation, DHCP, routing, redundancy, wireless access, NAT, and simulated internet connectivity.",
     tags: ["Networking", "Cisco Packet Tracer", "VLAN", "Routing", "DHCP"],
     live: "https://nbody-robotics.vercel.app/",
+    github: "https://github.com/Fazle240102/nbody-robotics",
     image: "/projects/nbody-topology.png",
     featured: true,
   },
@@ -39,6 +40,7 @@ const projects = [
       "A low-cost ESP32-based ultrasonic radar system using an HC-SR04 sensor and SG90 servo, with real-time browser visualization.",
     tags: ["ESP32", "HC-SR04", "Node.js", "Socket.IO"],
     live: null,
+    github: "https://github.com/Fazle240102/SENTRY-1",
     image: "/projects/sentry-1.png",
     featured: false,
   },
@@ -47,9 +49,10 @@ const projects = [
     title: "Tour Management System",
     category: "Full-Stack Web Application",
     description:
-      "A full-stack platform for managing tour packages, customers, bookings, payments, and reviews.",
+      "A full-stack tour management platform for managing tour packages, customers, bookings, payments, reviews, guides, locations, hotels, and analytics.",
     tags: ["FastAPI", "Python", "MySQL", "Bootstrap"],
     live: null,
+    github: "https://github.com/Fazle240102/Tour-Management-System",
     image: "/projects/tms.png",
     featured: false,
   },
@@ -59,8 +62,9 @@ const projects = [
     category: "Numerical Computing",
     description:
       "A web application for implementing and visualizing numerical interpolation methods with intermediate computational steps.",
-    tags: ["Python", "Numerical Methods", "JavaScript", "Visualization"],
+    tags: ["React", "FastAPI", "Python", "Plotly"],
     live: "https://interpsim.vercel.app/",
+    github: "https://github.com/Fazle240102/InterpSim",
     image: "/projects/interpsim.png",
     featured: false,
   },
@@ -70,12 +74,21 @@ const skills = [
   {
     icon: Code2,
     title: "Programming",
-    items: ["C", "C++", "Java", "Python", "JavaScript"],
+    items: ["C", "C++", "Java", "Python", "JavaScript", "TypeScript"],
   },
   {
     icon: Globe2,
     title: "Web Development",
-    items: ["HTML", "CSS", "Bootstrap", "Tailwind CSS", "React", "Next.js"],
+    items: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Tailwind CSS",
+      "React",
+      "Next.js",
+      "FastAPI",
+      "Node.js",
+    ],
   },
   {
     icon: Database,
@@ -324,7 +337,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-8 max-w-2xl text-lg leading-8 text-zinc-400 sm:text-xl">
-              A CSE student exploring AI/ML, building software, solving
+              A CSE undergraduate exploring AI/ML, building software, solving
               problems, and turning ideas into practical systems.
             </p>
 
@@ -460,7 +473,7 @@ export default function Home() {
 
               {/* AI/ML badge */}
               <div className="absolute bottom-[18%] right-[0%] rounded-full border border-white/10 bg-[#090909]/90 px-4 py-2 text-xs text-zinc-400 backdrop-blur-md">
-                AI / ML Explorer
+                Aspiring AI/ML Engineer
               </div>
 
               {/* Emerald center dot */}
@@ -618,6 +631,17 @@ export default function Home() {
                     >
                       Visit live project
                       <ExternalLink size={13} />
+                    </a>
+                  )}
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-7 ml-4 inline-flex items-center gap-2 text-xs font-medium text-zinc-300 transition hover:text-white"
+                    >
+                      GitHub
+                      <FaGithub size={13} />
                     </a>
                   )}
                 </div>
