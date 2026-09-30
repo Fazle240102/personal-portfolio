@@ -310,7 +310,7 @@ export default function Home() {
           >
             <div className="mb-7 flex items-center gap-3 text-xs text-zinc-500">
               <span className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_12px_rgba(52,211,153,0.7)]" />
-              CSE Undergraduate · AI/ML Explorer
+              CSE Undergraduate · Aspiring AI/ML Engineer
             </div>
 
             <p className="mb-4 text-xs font-medium uppercase tracking-[0.3em] text-zinc-500">
