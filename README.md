@@ -8,8 +8,6 @@ I am an undergraduate **Computer Science & Engineering student at Daffodil Inter
 
 I enjoy building practical systems, exploring new technologies, and working on projects that combine software with real-world applications.
 
-🌐 **Portfolio:** [mdfazlerabbi.vercel.app](https://mdfazlerabbi.vercel.app)
-
 ## ✨ Highlights
 
 - Responsive personal portfolio
