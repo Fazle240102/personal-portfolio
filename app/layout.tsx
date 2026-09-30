@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Md. Fazle Rabbi | CSE Student & AI/ML Explorer",
+  title: "Md. Fazle Rabbi | CSE Undergraduate & Aspiring AI/ML Engineer",
   description:
     "Personal portfolio of Md. Fazle Rabbi — a Computer Science & Engineering undergraduate exploring AI/ML, software development, and practical systems.",
   keywords: [
@@ -30,9 +30,9 @@ export const metadata: Metadata = {
   creator: "Md. Fazle Rabbi",
 
   openGraph: {
-    title: "Md. Fazle Rabbi | CSE Student & AI/ML Explorer",
+    title: "Md. Fazle Rabbi | CSE Undergraduate & Aspiring AI/ML Engineer",
     description:
-      "CSE undergraduate exploring AI/ML, software development, and practical systems.",
+      "CSE undergraduate focused on AI/ML, software development, and practical systems.",
     type: "website",
     locale: "en_US",
     images: [
@@ -40,16 +40,16 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Md. Fazle Rabbi | CSE Student & AI/ML Explorer",
+        alt: "Md. Fazle Rabbi | CSE Undergraduate & Aspiring AI/ML Engineer",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Md. Fazle Rabbi | CSE Student & AI/ML Explorer",
+    title: "Md. Fazle Rabbi | CSE Undergraduate & Aspiring AI/ML Engineer",
     description:
-      "CSE undergraduate exploring AI/ML, software development, and practical systems.",
+      "CSE undergraduate focused on AI/ML, software development, and practical systems.",
     images: ["/og-image.png"],
   },
 };
