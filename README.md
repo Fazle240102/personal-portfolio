@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio — Md. Fazle Rabbi
 
-## Getting Started
+A modern, responsive personal portfolio built with **Next.js, TypeScript, and Tailwind CSS** to showcase my projects, technical skills, and software development journey.
 
-First, run the development server:
+## 👨‍💻 About
+
+I am an undergraduate **Computer Science & Engineering student at Daffodil International University (2024–2027)** with a growing focus on **AI/ML, robotics, software development, and problem solving**.
+
+I enjoy building practical systems, exploring new technologies, and working on projects that combine software with real-world applications.
+
+## ✨ Highlights
+
+- Responsive personal portfolio
+- Project showcase with live demonstrations
+- Skills and technology overview
+- Resume access
+- Contact section and social links
+- Open Graph metadata and custom portfolio assets
+- Deployed with Vercel
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Tooling:** ESLint, npm
+- **Deployment:** Vercel
+
+## 🚀 Featured Projects
+
+My current project focus includes:
+
+1. **nbody-robotics** — AI/robotics project
+2. **SENTRY-1** — ESP32-based ultrasonic radar system with real-time web visualization
+3. **Tour Management System (TMS)** — software/web application
+4. **Interpolation Simulator** — numerical computing project
+5. **Library Management System** — database and backend project
+
+## 📄 Resume
+
+The latest resume is available in `public/Fazle_Rabbi_resume.pdf`.
+
+## 🔗 Links
+
+- **GitHub:** https://github.com/Fazle240102
+- **Portfolio:** https://nbody-robotics.vercel.app/
+
+## 📌 Development
+
+Clone the repository and install dependencies:
 
 ```bash
+git clone https://github.com/Fazle240102/personal-portfolio.git
+cd personal-portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📜 License
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is maintained as a personal portfolio. Please contact me before reusing personal assets, content, or branding.
