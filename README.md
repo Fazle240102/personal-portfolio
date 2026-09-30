@@ -8,6 +8,8 @@ I am an undergraduate **Computer Science & Engineering student at Daffodil Inter
 
 I enjoy building practical systems, exploring new technologies, and working on projects that combine software with real-world applications.
 
+🌐 **Portfolio:** [mdfazlerabbi.vercel.app](https://mdfazlerabbi.vercel.app)
+
 ## ✨ Highlights
 
 - Responsive personal portfolio
@@ -45,7 +47,7 @@ The latest resume is available at:
 
 ## 🔗 Projects & Portfolio
 
-- **Portfolio:** [fazle-portfolio](https://github.com/Fazle240102/personal-portfolio)
+- **Portfolio:** [mdfazlerabbi.vercel.app](https://mdfazlerabbi.vercel.app)
 - **N-Body Robotics:** [nbody-robotics.vercel.app](https://nbody-robotics.vercel.app/)
 - **Interpolation Simulator:** [interpsim.vercel.app](https://interpsim.vercel.app/)
 
