@@ -30,12 +30,12 @@ I enjoy building practical systems, exploring new technologies, and working on p
 
 My current project focus, in priority order:
 
-1. **[nbody-robotics](https://nbody-robotics.vercel.app/)** — AI/robotics team project with a live web application.
+1. **nbody-robotics** — AI/robotics team project with a live web application.
 2. **SENTRY-1** — A low-cost ESP32-based ultrasonic radar system with real-time web-based visualization.
 3. **Tour Management System (TMS)** — A software/web application project.
 4. **Interpolation Simulator** — A numerical methods and visualization project.
 
-> These projects are listed in the same order as my current portfolio/project priorities. Repository links are only included where the corresponding public repository is currently available.
+> These projects are listed in the same order as my current portfolio/project priorities.
 
 ## 📄 Resume
 
@@ -43,10 +43,11 @@ The latest resume is available at:
 
 **[View Resume](https://github.com/Fazle240102/personal-portfolio/blob/master/public/Fazle_Rabbi_resume.pdf)**
 
-## 🔗 Connect
+## 🔗 Projects & Portfolio
 
-- **GitHub:** [Fazle240102](https://github.com/Fazle240102)
-- **Portfolio:** [nbody-robotics.vercel.app](https://nbody-robotics.vercel.app/)
+- **Portfolio:** [fazle-portfolio](https://github.com/Fazle240102/personal-portfolio)
+- **N-Body Robotics:** [nbody-robotics.vercel.app](https://nbody-robotics.vercel.app/)
+- **Interpolation Simulator:** [interpsim.vercel.app](https://interpsim.vercel.app/)
 
 ## 📌 Development
 
