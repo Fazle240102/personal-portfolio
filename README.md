@@ -32,7 +32,7 @@ I enjoy building practical systems, exploring new technologies, and working on p
 
 My current project focus, in priority order:
 
-1. **nbody-robotics** — AI/robotics team project with a live web application.
+1. **nbody-robotics** — A computer networking team project featuring VLAN segmentation, DHCP, routing, redundancy, wireless access, NAT, and simulated internet connectivity.
 2. **SENTRY-1** — A low-cost ESP32-based ultrasonic radar system with real-time web-based visualization.
 3. **Tour Management System (TMS)** — A software/web application project.
 4. **Interpolation Simulator** — A numerical methods and visualization project.
