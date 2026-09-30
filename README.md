@@ -41,7 +41,7 @@ My current project focus, in priority order:
 
 The latest resume is available at:
 
-**[View Resume](https://github.com/Fazle240102/personal-portfolio/blob/master/public/Fazle_Rabbi_resume.pdf)**
+**[View Resume](https://github.com/Fazle240102/personal-portfolio/blob/main/public/Fazle_Rabbi_resume.pdf)**
 
 ## 🔗 Projects & Portfolio
 
