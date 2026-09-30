@@ -80,7 +80,7 @@ const skills = [
   {
     icon: Database,
     title: "Database",
-    items: ["MySQL", "PostgreSQL"],
+    items: ["MySQL", "MongoDB"],
   },
   {
     icon: Brain,
